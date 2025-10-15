@@ -9,7 +9,7 @@ public class AdvancedCalculator extends Calculator {
         result = num1 * num2;
         return result;
     }
-    //나누기 기능 개발완료
+    //계산기 v2.0 나누기 기능 개발완료
     //https://github.com/yahahahoho/Java-Calculator/issues/3
     @Override
     public int divide()
