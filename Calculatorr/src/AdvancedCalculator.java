@@ -17,5 +17,8 @@ public class AdvancedCalculator extends Calculator {
         result = num1 / num2;
         return result;
     }
+    public double getResult() {
+        return result;
+    }
 
 }
