@@ -11,5 +11,10 @@ public class Main {
         calc_mul.setNumbers(10, 2);
         calc_mul.multiply();
         calc_mul.displayResult("*");
+
+        ScientificCalculator calc_squ = new ScientificCalculator();
+        calc_squ.setNumbers(12,12 );
+        calc_squ.square();
+        calc_squ.displayResult("x");
     }
 }
