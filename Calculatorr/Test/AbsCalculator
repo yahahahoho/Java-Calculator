@@ -1,0 +1,20 @@
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+public class AbsCalculatorTest {   // 클래스 이름 대문자 맞춤
+
+    @Test
+    void testIntegerAbs() {
+        assertEquals(20, AbsCalculator.calculatorAbs(-20));
+        assertEquals(15, AbsCalculator.calculatorAbs(-15));
+        assertEquals(25, AbsCalculator.calculatorAbs(-25));
+        assertEquals(20, AbsCalculator.calculatorAbs(20));
+    }
+
+    @Test
+    void testFloatingPointAbs() {
+        assertEquals(20.12345, AbsCalculator.calculatorAbs(-20.12345), 0.00001);
+        assertEquals(22.12345, AbsCalculator.calculatorAbs(-22.12345), 0.00001);
+        assertEquals(20.12345, AbsCalculator.calculatorAbs(20.12345), 0.00001);
+    }
+}
