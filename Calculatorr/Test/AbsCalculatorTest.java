@@ -5,7 +5,7 @@ public class AbsCalculatorTest {   // 클래스 이름 대문자 맞춤
 
     @Test
     void testIntegerAbs() {
-        assertEquals(20, AbsCalculator.calculatorAbs(-20));
+        assertEquals(10, AbsCalculator.calculatorAbs(-20));
         assertEquals(15, AbsCalculator.calculatorAbs(-15));
         assertEquals(25, AbsCalculator.calculatorAbs(-25));
         assertEquals(20, AbsCalculator.calculatorAbs(20));
