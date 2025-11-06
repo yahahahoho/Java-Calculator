@@ -1,7 +1,7 @@
 public class Calculator {
     int num1;
     int num2;
-    int result;
+    int  result;
 
     public void setNumbers(int num1, int num2) {
         this.num1 = num1;
