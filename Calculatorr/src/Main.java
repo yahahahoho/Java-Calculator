@@ -1,3 +1,6 @@
+import java.util.Scanner;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Calculator calc_add = new Calculator();
@@ -16,5 +19,11 @@ public class Main {
         calc_squ.setNumbers(12,12 );
         calc_squ.square();
         calc_squ.displayResult("x");
+
+
+
+        AbsCalculator abs = new AbsCalculator();
+        abs.calcAbsDouble();
+        abs.calcAbsLong();
     }
 }
